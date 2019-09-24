@@ -18,7 +18,7 @@ namespace WebApplication2.DAL
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<Workout> Workouts { get; set; }
         public DbSet<TypeWorkout> TypeWorkouts { get; set; }
-        //public DbSet<Forum> Forums { get; set; }
+        public DbSet<Forum> Forums { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

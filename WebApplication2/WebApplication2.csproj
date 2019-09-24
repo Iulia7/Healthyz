@@ -127,7 +127,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ExerciseController.cs" />
+    <Compile Include="Controllers\ForumController.cs" />
     <Compile Include="Controllers\RecipeController.cs" />
+    <Compile Include="Controllers\TypeWorkoutController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\WorkoutController.cs" />
     <Compile Include="DAL\HealthyzContext.cs" />
     <Compile Include="DAL\HealthyzInitializer.cs" />
     <Compile Include="Global.asax.cs">
@@ -137,8 +142,13 @@
     <Compile Include="Migrations\201909161701287_CreateDB.Designer.cs">
       <DependentUpon>201909161701287_CreateDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909241715073_AddForum.cs" />
+    <Compile Include="Migrations\201909241715073_AddForum.Designer.cs">
+      <DependentUpon>201909241715073_AddForum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exercise.cs" />
+    <Compile Include="Models\Forum.cs" />
     <Compile Include="Models\Recipe.cs" />
     <Compile Include="Models\TypeWorkout.cs" />
     <Compile Include="Models\User.cs" />
@@ -180,9 +190,16 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Recipe\Index.cshtml" />
     <Content Include="Views\Recipe\Details.cshtml" />
+    <Content Include="Views\TypeWorkout\Index.cshtml" />
+    <Content Include="Views\Workout\Index.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\" />
+    <Folder Include="Scripts\assets\" />
+    <Folder Include="Views\Exercises\" />
+    <Folder Include="Views\Forum\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -200,6 +217,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201909161701287_CreateDB.resx">
       <DependentUpon>201909161701287_CreateDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241715073_AddForum.resx">
+      <DependentUpon>201909241715073_AddForum.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

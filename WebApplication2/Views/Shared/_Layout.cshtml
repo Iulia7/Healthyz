@@ -1,42 +1,249 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-EN">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>HealthyZ</title>
+    <link href="assets/ea8fd523/css/libs/swiper.min.css" rel="stylesheet">
+    <link href="assets/ea8fd523/css/libs/jquery.fullpage.css" rel="stylesheet">
+    <link href="assets/ea8fd523/css/libs/animations.css" rel="stylesheet">
+    <link href="assets/ea8fd523/css/stylesedb4.css?v=3.2111" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="alternate" hreflang="en" href="index.html" />
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    <div class="wrapper notLoaded">
+        <div class="loadingScreen">
+            <div class="reveal-1"></div>
+            <div class="reveal-2"></div>
+        </div>
+        <div class="mainWrap index">
+            <div class="headerWrap">
+                <div class="mainBar">
+                    <div class="menu">
+                        <a class="logo" href="index.html"></a>
+                        <div class="toggleWrap">
+                            <div class="container">
+
+
+
+
+                                <div class="navigation-wrapper">
+                                    <div class="navigation-button">
+                                        <i class="fa fa-bars"></i>
+                                    </div>
+                                    <div class="navigation-menu">
+                                        <ul>
+                                            <li><a href="works.html">Prefata</a></li>
+                                            <li><a href="stre/page/services.html">Servicii oferite | Preturi</a></li>
+                                            <li><a href="stre/page/blog.html">Antrenamente | Nutritie</a></li>
+                                            <li><a href="news.html">News</a></li>
+                                            <li><a href="stre/page/contact.html">Contact</a></li>
+                                            <li><a href="stre/page/about.html">Despre noi</a></li>
+                                            <li><a href="stre/page/reviews.html">Reviews</a></li>
+                                            <li><a href="stre/page/login.html">Log In | Sign Up</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+
+
+            <div id="sliderWrap">
+                <div class="gradBg"
+                     style="background: linear-gradient(to right, rgb(79, 121, 155) 0%, rgb(185, 154, 218) 100%);">
+                    <div class="gradBgInner"
+                         style="background: linear-gradient(to right, rgb(79, 121, 155) 0%, rgb(185, 154, 218) 100%);">
+                    </div>
+                </div>
+                <div class="envSun"></div>
+                <div class="envBottom"></div>
+                <div id="fullPage">
+                    <div class="section">
+                        <div class="slide active"
+                             data-grad="linear-gradient(to right, #4F799B 0%, #B99ADA 100%)">
+                            <div class="as007 es007">
+                                <div class="envClouds">
+                                    <div class="moveBlock ec008"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock fl010"></div>
+                                </div>
+                                <div class="slideContent ele_c">
+                                    <div class="slideTitle">
+                                        <div class="moveBlock">
+                                            HealthyZ<br>  un nou stil de viata
+                                        </div>
+                                    </div>
+
+                                    <a class="slideButton" href="works.html">Incepe aici</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide next-slide"
+                             data-grad="linear-gradient(to left, rgb(132, 210, 242) 0%, rgb(226, 131, 221) 100%)">
+                            <div class="as007 chl100">
+                                <div class="envClouds">
+                                    <div class="moveBlock chcl100 left-full"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock  ch111 anim10-type-full"></div>
+                                </div>
+                                <div class="siteName">
+                                    <div class="moveBlock">
+                                        Antrenamente
+                                    </div>
+                                </div>
+                                <div class="mainSlideContent">
+                                    <div class="slideText">
+                                        Am creat pentru tine cele mai simple si eficiente antrenamente pentru  &<br>
+                                        a-ti atinge obiectivlele si pentru a-ti schimba stilul de viata, intr-unul mai activ.
+                                    </div>
+                                    <a class="slideButton" href="works.html">Vezi detalii</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide "
+                             data-grad="linear-gradient(to right, rgb(87, 193, 159) 0%, rgb(132, 210, 242) 100%)">
+                            <div class="as007 girs112">
+                                <div class="envClouds">
+                                    <div class="moveBlock girs113 left-full"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock giff114"></div>
+                                </div>
+                                <div class="slideContent giff114_c">
+                                    <div class="slideTitle">
+                                        <div class="moveBlock">
+                                            Programe nutritionale<br>
+                                        </div>
+                                    </div>
+                                    <div class="slideText">
+                                        <br>
+                                        Cu ajutorul programelor nutritionale, customizate pentru tine te vei bucura <br>
+                                        de o schimbare semnificativa a corpului, acestea fiind temelia catre atingerea obiectivului, deoarece necesita atentie 24/7.
+                                    </div>
+                                    <a class="slideButton" href="works.html">Vezi programe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide next-slide"
+                             data-grad="linear-gradient(to right, rgb(248, 182, 78) 0%, rgb(251, 82, 82) 100%)">
+                            <div class="as007 eas115">
+                                <div class="envClouds">
+                                    <div class="moveBlock ea116 left-full"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock ea117 anim10-type-top"></div>
+                                </div>
+                                <div class="slideContent ea117_c">
+                                    <div class="slideTitle">
+                                        <div class="moveBlock">
+                                            Challenge-uri saptamanale / lunare
+                                        </div>
+                                    </div>
+                                    <div class="slideText">
+                                        Creearea de challenge-uri saptamanale / lunare este unul din obiectivele noastre.<br>
+                                        Datorita sponsoriilor nostrii putem sa dezvoltam astfel de competitii, in care sa castigi<br>
+                                        diferite produse, reduceri sau discount-uri la magazinele partenere.
+                                    </div>
+                                    <a class="slideButton" href="works.html">Vezi Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide"
+                             data-grad="linear-gradient(to right, rgb(132, 210, 242) 0%, rgb(226, 131, 221) 100%)">
+                            <div class="as007 zes120">
+                                <div class="envClouds">
+                                    <div class="moveBlock zes121"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock ze1001"></div>
+                                </div>
+                                <div class="slideContent ze1001_c">
+                                    <div class="slideTitle">
+                                        <div class="moveBlock">
+                                            Monitorizare si imbunatatire
+                                        </div>
+                                    </div>
+                                    <div class="slideText">
+                                        Pentru a-ti monitoriza si imbunatatii antrenamentul, stilul de viata si progresul am creat o sectiune     &<br>
+                                        unde poti pune intrebari catre un antrenor / nutrionist online, care te va ajuta cu mare placere.
+                                    </div>
+                                    <a class="slideButton" href="works.html">Vezi detalii</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide"
+                             data-grad="linear-gradient(to right, rgb(79, 121, 155) 0%, rgb(185, 154, 218) 100%)">
+                            <div class="as007 li11">
+                                <div class="envClouds">
+                                    <div class="moveBlock lic999"></div>
+                                </div>
+                                <div class="anim10">
+                                    <div class="moveBlock li998"></div>
+                                </div>
+                                <div class="slideContent li998_c">
+                                    <div class="slideTitle">
+                                        <div class="moveBlock">
+                                            Alimentatie <br>si echilibru
+                                        </div>
+                                    </div>
+                                    <div class="slideText">
+                                        Alimentatia este foarte importanta in lumea fitness-ului deoarece aceasta necesita atentie 24/7.   <br>
+                                        Am creeat programe / ghid / sftauri pentru a te ajuta si indruma catre atingerea obiectivului dorit.
+                                    </div>
+                                    <a class="slideButton" href="works.html">Vezi programe</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+    <script>
+    var navButton = document.querySelector('.navigation-button');
+var navMenu = document.querySelector('.navigation-menu');
+var win = window;
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+function openMenu(event) {
+
+  navButton.classList.toggle('active');
+  navMenu.classList.toggle('active');
+
+  event.preventDefault();
+  event.stopImmediatePropagation();
+}
+
+function closeMenu(event) {
+  if (navButton.classList.contains('active')) {
+    navButton.classList.remove('active');
+    navMenu.classList.remove('active');
+  }
+}
+  navButton.addEventListener('click', openMenu, false);
+
+win.addEventListener('click',closeMenu, false);
+
+    </script>
+    <script src="assets/df8e14a3/jquery.js"></script>
+    <script src="assets/b6af9d34/yii.js"></script>
+    <script src="assets/ea8fd523/js/libs/swiper2048.js?v=1.5"></script>
+    <script src="assets/ea8fd523/js/libs/jquery.fullpage.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="assets/ea8fd523/js/libs/css3-animate-it.js"></script>
+    <script src="assets/ea8fd523/js/map.js"></script>
+    <script src="assets/ea8fd523/js/mainedb4.js?v=3.2111"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOqxGoTOsGMLHfIHTHJn-E5LGXWigwauk&amp;callback=initMap"></script>
 </body>
 </html>

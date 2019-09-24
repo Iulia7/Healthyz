@@ -156,3 +156,4 @@ C:\Users\User\Documents\GitHub\Healthyz\WebApplication2\obj\Debug\WebApplication
 C:\Users\User\Documents\GitHub\Healthyz\WebApplication2\obj\Debug\WebApplication2.pdb
 C:\Users\User\Documents\GitHub\Healthyz\WebApplication2\obj\Debug\WebApplication2.Migrations.CreateDB.resources
 C:\Users\User\Documents\GitHub\Healthyz\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\Healthyz\WebApplication2\obj\Debug\WebApplication2.Migrations.AddForum.resources
